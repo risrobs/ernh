@@ -28,4 +28,34 @@ html {
   flex-flow: column;
 }
 
-@media only screen and (max-device-width: 600px) 
+@media screen and(max - width: 600 px) {
+   #title_message {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10 px auto 5 px 20 px;
+      width: 28 % ;
+      display: none;
+   }
+}
+#title_message {
+   display: none;
+}
+@media all and(min - width: 480 px) {
+       .deskContent {
+          display: block;
+       }
+       .phoneContent {
+          display: none;
+       }
+    }
+
+    @media all and(max - width: 479 px) {
+       .deskContent {
+          display: none;
+       }
+       .phoneContent {
+          display: block;
+       }
+    }
+    
